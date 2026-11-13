@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title">
+  <title id="title">Car image unavailable</title>
+  <rect width="1200" height="700" fill="#ecece8"/>
+  <path d="M255 430h690l-55-135c-14-34-46-57-83-60l-320-23c-36-3-70 16-88 47l-88 171Z" fill="#d3d4cf"/>
+  <path d="m394 278 330 24 56 111H329l65-135Z" fill="#fafaf7"/>
+  <path d="M210 430h780c32 0 58 26 58 58v50H152v-50c0-32 26-58 58-58Z" fill="#17191d"/>
+  <circle cx="335" cy="531" r="69" fill="#fff"/><circle cx="335" cy="531" r="39" fill="#777b80"/>
+  <circle cx="865" cy="531" r="69" fill="#fff"/><circle cx="865" cy="531" r="39" fill="#777b80"/>
+  <text x="600" y="650" text-anchor="middle" fill="#73777e" font-family="Arial,sans-serif" font-size="25">CU DRIVE</text>
+</svg>

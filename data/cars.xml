@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cars>
+  <car>
+    <id>CU101</id>
+    <make>Audi</make>
+    <model>Q7</model>
+    <category>SUV</category>
+    <seats>7</seats>
+    <transmission>Automatic</transmission>
+    <fuel>Diesel</fuel>
+    <year>2024</year>
+    <pricePerDay>2499</pricePerDay>
+    <image>https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6</image>
+    <available>true</available>
+  </car>
+  <car>
+    <id>CU102</id>
+    <make>Mercedes-Benz</make>
+    <model>CLA</model>
+    <category>Sedan</category>
+    <seats>5</seats>
+    <transmission>Automatic</transmission>
+    <fuel>Petrol</fuel>
+    <year>2023</year>
+    <pricePerDay>1899</pricePerDay>
+    <image>https://images.unsplash.com/photo-1590362891991-f776e747a588</image>
+    <available>true</available>
+  </car>
+</cars>

@@ -1,0 +1,10 @@
+/webapps/
+/target/
+/runtime/
+*.log
+*.bak
+/out/
+/docx_preview/
+.idea/
+.vscode/
+.DS_Store

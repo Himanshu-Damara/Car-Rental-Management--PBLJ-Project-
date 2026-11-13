@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<users>
+  <user>
+    <id>admin</id>
+    <name>System Administrator</name>
+    <email>admin@admin</email>
+    <passwordHash>pbkdf2$120000$aG//muvHfEidFdipyrRSkQ==$zxF32tqKl4KgKJk79Kl3FKfvjL8RAphBsmTWAXC6ZWc=</passwordHash>
+    <role>ADMIN</role>
+    <phone>+91 98765 43210</phone>
+  </user>
+  <user>
+    <id>demo</id>
+    <name>Aarav Sharma</name>
+    <email>demo@demo</email>
+    <passwordHash>pbkdf2$120000$kBh/+9BLFQmGR6KGU0HFtQ==$1E5ZMsmiPHscNQmvWXB3fkSKS0yGHSZV1kIWpmdF4KM=</passwordHash>
+    <role>CUSTOMER</role>
+    <phone>+91 98765 43211</phone>
+  </user>
+</users>

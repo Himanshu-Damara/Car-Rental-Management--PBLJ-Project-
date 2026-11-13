@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="900" viewBox="0 0 1500 900" role="img" aria-labelledby="title desc">
+  <title id="title">CU Drive layered MVC architecture</title>
+  <desc id="desc">Browser, Tomcat, security filters, servlet controller, service, XML repository, XML files, and JSP views with request and response paths.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M1 1 11 6 1 11Z" fill="#52718a"/></marker>
+    <style>
+      .title{font:700 34px Arial,sans-serif;fill:#142b45}.sub{font:16px Arial,sans-serif;fill:#5b6d7e}.head{font:700 19px Arial,sans-serif;fill:#142b45}.txt{font:15px Arial,sans-serif;fill:#344a5f}.tiny{font:13px Arial,sans-serif;fill:#51667b}.box{stroke-width:2;rx:17}.arrow{fill:none;stroke:#52718a;stroke-width:3;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1500" height="900" fill="#f7fafc"/>
+  <text x="750" y="62" text-anchor="middle" class="title">CU Drive — Layered MVC Architecture</text>
+  <text x="750" y="94" text-anchor="middle" class="sub">Java 17 · Jakarta Servlets · JSP · XML DOM · Apache Tomcat 10.1</text>
+
+  <rect x="48" y="180" width="200" height="164" class="box" fill="#eaf4fb" stroke="#8ab9d4"/>
+  <text x="148" y="216" text-anchor="middle" class="head">Browser</text><text x="148" y="250" text-anchor="middle" class="txt">Customer / Admin</text><text x="148" y="281" text-anchor="middle" class="tiny">HTML5 · CSS3 · JS</text><text x="148" y="306" text-anchor="middle" class="tiny">Bootstrap 5</text>
+  <rect x="300" y="180" width="200" height="164" class="box" fill="#eaf4fb" stroke="#8ab9d4"/>
+  <text x="400" y="216" text-anchor="middle" class="head">Web Container</text><text x="400" y="250" text-anchor="middle" class="txt">Apache Tomcat 10.1</text><text x="400" y="281" text-anchor="middle" class="tiny">Jakarta Servlet API</text><text x="400" y="306" text-anchor="middle" class="tiny">WAR deployment</text>
+  <rect x="552" y="180" width="220" height="164" class="box" fill="#fff5df" stroke="#e4bd61"/>
+  <text x="662" y="216" text-anchor="middle" class="head">Security Filters</text><text x="662" y="250" text-anchor="middle" class="tiny">Session authentication</text><text x="662" y="278" text-anchor="middle" class="tiny">Admin authorization</text><text x="662" y="306" text-anchor="middle" class="tiny">CSRF protection</text>
+  <rect x="824" y="180" width="210" height="164" class="box" fill="#e9f6f1" stroke="#7fbea6"/>
+  <text x="929" y="216" text-anchor="middle" class="head">MVC Controller</text><text x="929" y="254" text-anchor="middle" class="txt">RentalServlet</text><text x="929" y="286" text-anchor="middle" class="tiny">Routes requests</text><text x="929" y="312" text-anchor="middle" class="tiny">Selects JSP views</text>
+  <rect x="1086" y="180" width="190" height="164" class="box" fill="#e9f6f1" stroke="#7fbea6"/>
+  <text x="1181" y="216" text-anchor="middle" class="head">Service Layer</text><text x="1181" y="254" text-anchor="middle" class="txt">RentalService</text><text x="1181" y="286" text-anchor="middle" class="tiny">Validation · pricing</text><text x="1181" y="312" text-anchor="middle" class="tiny">Booking rules</text>
+  <path d="M248 262h45M500 262h45M772 262h45M1034 262h45" class="arrow"/>
+
+  <rect x="1086" y="492" width="190" height="150" class="box" fill="#f1edfb" stroke="#a898d7"/>
+  <text x="1181" y="528" text-anchor="middle" class="head">XML Repository</text><text x="1181" y="565" text-anchor="middle" class="txt">XmlRepository</text><text x="1181" y="594" text-anchor="middle" class="tiny">XmlStore · DOM</text><text x="1181" y="619" text-anchor="middle" class="tiny">Synchronized writes</text>
+  <rect x="824" y="492" width="210" height="150" class="box" fill="#f1edfb" stroke="#a898d7"/>
+  <text x="929" y="528" text-anchor="middle" class="head">XML Data</text><text x="929" y="565" text-anchor="middle" class="txt">users.xml</text><text x="929" y="592" text-anchor="middle" class="txt">cars.xml</text><text x="929" y="619" text-anchor="middle" class="txt">bookings.xml</text>
+  <path d="M1181 344v140" class="arrow"/><path d="M1086 567h-45" class="arrow"/>
+  <text x="1180" y="430" text-anchor="middle" class="tiny">Business data operations</text>
+  <text x="929" y="686" text-anchor="middle" class="tiny">XML files are stored outside the WAR deployment directory.</text>
+
+  <rect x="300" y="492" width="472" height="150" class="box" fill="#fff" stroke="#b9c9d5"/>
+  <text x="536" y="528" text-anchor="middle" class="head">JSP Views</text><text x="536" y="566" text-anchor="middle" class="txt">Home · Car Listing · Booking History</text><text x="536" y="596" text-anchor="middle" class="txt">Booking Confirmation · Admin Dashboard</text><text x="536" y="621" text-anchor="middle" class="tiny">JSTL output escaping</text>
+  <path d="M929 344v78H536v62" class="arrow"/><text x="727" y="409" text-anchor="middle" class="tiny">Forward with model data</text>
+  <path d="M300 567H148V354" class="arrow"/><text x="184" y="460" text-anchor="middle" class="tiny" transform="rotate(-90 184 460)">HTML response</text>
+  <path d="M148 344v68h514v-60" fill="none" stroke="#c79828" stroke-width="2.5" stroke-dasharray="8 7" marker-end="url(#arrow)"/><text x="400" y="402" text-anchor="middle" class="tiny">HTTP request</text>
+  <text x="750" y="820" text-anchor="middle" class="sub">Request → Controller → Service → Repository → XML · View forward → HTML response</text>
+</svg>
