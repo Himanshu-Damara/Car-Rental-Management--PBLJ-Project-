@@ -28,7 +28,7 @@ A Java 17, Jakarta Servlet/JSP MVC Maven WAR project for Apache Tomcat 10.1. It 
 
 ## Start the system on Windows
 
-Double-click `start.bat`. It checks for Java 17, builds the WAR with Maven when Maven is available, and deploys it to Tomcat. If `CATALINA_HOME` is not set and a project-local Tomcat is not present, the launcher downloads Apache Tomcat 10.1.61 from the official Apache mirror and verifies the ZIP against Apache's SHA-512 checksum before extracting it. If Maven is not installed, it can use the already-built `target/car-rental.war`.
+Double-click `start.bat`. It checks for Java 17, builds the WAR with Maven when Maven is available, and deploys it to Tomcat. If `CATALINA_HOME` is not set and a project-local Tomcat is not present, the launcher downloads Apache Tomcat 10.1.61 from the official Apache mirror and verifies the ZIP against Apache's SHA-512 checksum before extracting it. If Maven is not installed, provide an already-built `target/car-rental.war` or install Maven.
 
 The first run needs an internet connection to download Tomcat. The app opens at `http://localhost:8080/car-rental/`. XML data is stored in `%USERPROFILE%\car-rental-data`, outside the WAR. Keep the Tomcat console window open while using the system; close it to stop the server. Sample accounts are listed above.
 
@@ -98,5 +98,7 @@ src/main/webapp/
   WEB-INF/views/               # JSP pages and shared fragments
   assets/css/site.css
   assets/js/app.js
-target/car-rental.war
+docs/WORKFLOW.md                # customer/admin workflows and screenshot refresh steps
+docs/MVC-Architecture.svg       # report-ready architecture diagram
+docs/screenshots/               # captured app pages
 ```
